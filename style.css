@@ -277,10 +277,8 @@ section{
  .slider{
   
   width: 100%;
+  min-width: 100%;
   overflow:hidden;
-  
- 
- 
   
 }
   .slider ul{
@@ -288,9 +286,6 @@ section{
   display: flex;
   width: 400%;
   animation: cambio 15s infinite alternate linear;
-
-  
-  
   
 }
 .slider li{
@@ -301,7 +296,7 @@ section{
 }
 .slider img{
   width:100%;
-  height: 500px;
+  height: 450px;
   object-fit:cover;
 }
 @keyframes cambio{
@@ -320,13 +315,14 @@ section{
 
 }
 
+
 @media (max-width: 1040px){
   header{
     padding: 12px 20px;
   }
 
   section{
-    padding: 100px 20px;
+    padding: 40px 20px;
   }
 
   .cover .media-icons{
@@ -387,7 +383,7 @@ section{
 
   .menu-btn.active{
     z-index: 999;
-    background: url(img/menu\ \(1\).svg)no-repeat;
+    background: url(img/menu2.svg) no-repeat;
     width: 50px;
     height: 50px;
     background-size: 30px;
@@ -404,19 +400,20 @@ section{
     font-size: 1.2em;
     line-height: 40px;
 
+
   }
-  header .brand  {
-    font-size: 1.2em;
-    line-height: 10px;
-    justify-content: space-between;
-    
-  }
-  header .brand i{
-    font-size: 1.2em;
-    bottom:auto;
+
+  header .brand {
+
+    font-size: 1.1em;
+   
   }
   .acercade .titulo h4{
-    font-size: 1em;
+    font-size: 1.1em;
+  }
+  .acercade img{
+  width: 150px;
+  height: 150px;
   }
   .slider{
   width: 100%;
@@ -424,7 +421,7 @@ section{
   }
   .slider img{
     width:100%;
-    height: 500px;
+    height: 300px;
     object-fit:cover;
   }
   
