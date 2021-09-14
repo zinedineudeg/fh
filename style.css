@@ -122,7 +122,7 @@ section{
 .cover .content{
   z-index: 888;
   color: #fff;
-  width: 70%;
+  width: 60%;
   margin-top: 50px;
   display: none;
 }
@@ -147,7 +147,7 @@ section{
 }
 
 .cover .content p{
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .cover .content a{
@@ -407,6 +407,9 @@ section{
 
     font-size: 1.1em;
    
+  }
+  .cover .content h1{
+    font-size: 2em;
   }
   .acercade .titulo h4{
     font-size: 1.1em;
