@@ -37,9 +37,9 @@ header .brand {
   font-size: 2em;
   font-weight: 800;
   text-transform: uppercase;
-  line-height: 25px;
+  line-height: 30px;
   text-decoration: none;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   justify-content: start;
   
   
@@ -132,13 +132,14 @@ section{
 }
 
 .cover .content h1{
-  font-size: 4em;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+  font-size: 3.5em;
+  font-weight: 600;
+  letter-spacing: 3px;
   line-height: 75px;
+  text-transform:uppercase;
   margin-bottom: 40px;
   color: rgb(206, 255, 195);
+  position: relative;
 }
 
 .cover .content h1 span{
@@ -208,7 +209,8 @@ section{
   justify-content: center;
   align-items: center;
   transform: translateY(40px);
-  margin-bottom: 12px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 .slider-navigation .nav-btn{
@@ -279,6 +281,7 @@ section{
   width: 100%;
   min-width: 100%;
   overflow:hidden;
+  
   
 }
   .slider ul{
