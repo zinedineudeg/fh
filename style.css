@@ -19,14 +19,16 @@ header{
   display:flex;
   align-content: center;
   align-items: center;
-  padding: 15px 200px;
+  padding: 25px 200px;
   transition: 0.5s ease;
+  justify-content: space-between;
+  
 }
 
-header .icon i{
-  font-size: 2em;
+header .brand i{
+  font-size: 1em;
   color:rgb(255, 255, 255);
-  margin-right: 5px;
+  margin-right: 1px;
   position: relative;
 
 }
@@ -35,10 +37,10 @@ header .brand {
   font-size: 2em;
   font-weight: 800;
   text-transform: uppercase;
-  justify-content: space-between;
   line-height: 25px;
   text-decoration: none;
   letter-spacing: 5px;
+  justify-content: start;
   
   
 }
@@ -51,7 +53,8 @@ header .brand:hover {
 header .navigation{
   position: relative;
   display: flex;
-  left: 25rem;
+  
+ 
   
 }
 
@@ -98,7 +101,7 @@ section{
 .cover{
   position: relative;
   width: 100%;
-  min-height: 100hv;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -400,18 +403,20 @@ section{
   .cover .content h1{
     font-size: 1.2em;
     line-height: 40px;
+
   }
   header .brand  {
-    font-size: 2em;
-    line-height: 40px;
+    font-size: 1.2em;
+    line-height: 10px;
+    justify-content: space-between;
     
   }
-  header .icon i{
-    font-size: 1.5em;
-    bottom: 15px;
+  header .brand i{
+    font-size: 1.2em;
+    bottom:auto;
   }
   .acercade .titulo h4{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .slider{
   width: 100%;
